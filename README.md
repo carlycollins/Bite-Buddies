@@ -33,13 +33,13 @@ lifestyles.
 
 ## Storyboard
 #### Simple Task: survey user and generate a feed of recipes to explore 
-![image](https://github.com/user-attachments/assets/39799ba8-4c07-4bb2-8e6f-122526afc799)
+<img width="805" height="283" alt="Screenshot 2026-03-19 at 4 59 22 AM" src="https://github.com/user-attachments/assets/dff2dec7-290d-4d0a-8d18-0605acc77889" />
 
 #### Moderate Task: user uploads the items in their pantry and app provides the user with meal preparation instructions for the week
-![image](https://github.com/user-attachments/assets/2b8d7b02-257d-47b3-a08a-033a273bce12)
+<img width="807" height="284" alt="Screenshot 2026-03-19 at 4 59 58 AM" src="https://github.com/user-attachments/assets/a35e670b-992b-410e-bd61-768e539373a3" />
 
 #### Complex Task: user survey and user’s pantry used to generate a grocery list according to weekly meal plan and store preference
-![image](https://github.com/user-attachments/assets/23dc0820-8c8d-4cdf-a9d3-4b4f99352ad3)
+<img width="803" height="292" alt="Screenshot 2026-03-19 at 5 02 15 AM" src="https://github.com/user-attachments/assets/1c6e6a30-2cb2-4736-8596-9b09f48b0b0a" />
 
 ## Figma Mockup
 https://www.figma.com/design/pbIf1WHBnSy2LS7VEQXfBU/Mid-Fi-Prototype?node-id=0-1&t=dFCkkK3L6wrMk2EL-1 
