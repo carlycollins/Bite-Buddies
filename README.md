@@ -32,13 +32,13 @@ simple, flexible tool that supports affordable and realistic meal planning for c
 lifestyles.
 
 ## Storyboard
-### Simple Task: survey user and generate a feed of recipes to explore 
+#### Simple Task: survey user and generate a feed of recipes to explore 
 ![image](https://github.com/user-attachments/assets/39799ba8-4c07-4bb2-8e6f-122526afc799)
 
-### Moderate Task: user uploads the items in their pantry and app provides the user with meal preparation instructions for the week
+#### Moderate Task: user uploads the items in their pantry and app provides the user with meal preparation instructions for the week
 ![image](https://github.com/user-attachments/assets/2b8d7b02-257d-47b3-a08a-033a273bce12)
 
-### Complex Task: user survey and user’s pantry used to generate a grocery list according to weekly meal plan and store preference
+#### Complex Task: user survey and user’s pantry used to generate a grocery list according to weekly meal plan and store preference
 ![image](https://github.com/user-attachments/assets/23dc0820-8c8d-4cdf-a9d3-4b4f99352ad3)
 
 ## Figma Mockup
