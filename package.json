@@ -3,15 +3,14 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://{carlycollins}.github.io/{Bite-Buddies}",
+  "homepage": "https://carlycollins.github.io/Bite-Buddies",
 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "start": "react-scripts start"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
