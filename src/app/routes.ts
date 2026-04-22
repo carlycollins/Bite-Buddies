@@ -16,69 +16,74 @@ import { MyGroceries } from './pages/MyGroceries';
 import { ExploreRecipes } from './pages/ExploreRecipes';
 import { SavedRecipes } from './pages/SavedRecipes';
 
-export const router = createBrowserRouter([
+export const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      Component: Home,
+    },
+    {
+      path: '/survey',
+      Component: Survey,
+    },
+    {
+      path: '/recipes',
+      Component: Recipes,
+    },
+    {
+      path: '/recipe/:id',
+      Component: RecipeDetail,
+    },
+    {
+      path: '/scan-pantry',
+      Component: ScanPantry,
+    },
+    {
+      path: '/meal-selection',
+      Component: MealSelection,
+    },
+    {
+      path: '/weekly-meal-plan',
+      Component: WeeklyMealPlan,
+    },
+    {
+      path: '/meal-prep/:id',
+      Component: MealPrepInstructions,
+    },
+    {
+      path: '/grocery-filters',
+      Component: GroceryFilters,
+    },
+    {
+      path: '/store-list',
+      Component: StoreList,
+    },
+    {
+      path: '/grocery-list',
+      Component: GroceryList,
+    },
+    {
+      path: '/my-pantry',
+      Component: MyPantry,
+    },
+    {
+      path: '/my-meal-plan',
+      Component: MyMealPlan,
+    },
+    {
+      path: '/my-groceries',
+      Component: MyGroceries,
+    },
+    {
+      path: '/explore-recipes',
+      Component: ExploreRecipes,
+    },
+    {
+      path: '/saved-recipes',
+      Component: SavedRecipes,
+    },
+  ],
   {
-    path: '/',
-    Component: Home,
-  },
-  {
-    path: '/survey',
-    Component: Survey,
-  },
-  {
-    path: '/recipes',
-    Component: Recipes,
-  },
-  {
-    path: '/recipe/:id',
-    Component: RecipeDetail,
-  },
-  {
-    path: '/scan-pantry',
-    Component: ScanPantry,
-  },
-  {
-    path: '/meal-selection',
-    Component: MealSelection,
-  },
-  {
-    path: '/weekly-meal-plan',
-    Component: WeeklyMealPlan,
-  },
-  {
-    path: '/meal-prep/:id',
-    Component: MealPrepInstructions,
-  },
-  {
-    path: '/grocery-filters',
-    Component: GroceryFilters,
-  },
-  {
-    path: '/store-list',
-    Component: StoreList,
-  },
-  {
-    path: '/grocery-list',
-    Component: GroceryList,
-  },
-  {
-    path: '/my-pantry',
-    Component: MyPantry,
-  },
-  {
-    path: '/my-meal-plan',
-    Component: MyMealPlan,
-  },
-  {
-    path: '/my-groceries',
-    Component: MyGroceries,
-  },
-  {
-    path: '/explore-recipes',
-    Component: ExploreRecipes,
-  },
-  {
-    path: '/saved-recipes',
-    Component: SavedRecipes,
-  },
-]);
+    basename: import.meta.env.BASE_URL,
+  }
+);

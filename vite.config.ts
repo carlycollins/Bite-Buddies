@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/Bite-Buddies/',
+  base: process.env.NODE_ENV === 'production' ? '/Bite-Buddies/' : '/',
   plugins: [
     react(),
     tailwindcss(),
