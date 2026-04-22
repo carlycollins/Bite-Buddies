@@ -35,7 +35,4 @@ export const router = createHashRouter(
     { path: '/explore-recipes', Component: ExploreRecipes },
     { path: '/saved-recipes', Component: SavedRecipes },
   ],
-  {
-    basename: import.meta.env.BASE_URL,
-  }
 );
