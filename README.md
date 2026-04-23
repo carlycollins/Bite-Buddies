@@ -41,8 +41,12 @@ lifestyles.
 #### Complex Task: user survey and user’s pantry used to generate a grocery list according to weekly meal plan and store preference
 <img width="803" height="292" alt="Screenshot 2026-03-19 at 5 02 15 AM" src="https://github.com/user-attachments/assets/1c6e6a30-2cb2-4736-8596-9b09f48b0b0a" />
 
-## Figma Mockup
+## Mid-Fi Prototype
+#### Figma Mockup: 
 https://www.figma.com/design/pbIf1WHBnSy2LS7VEQXfBU/Mid-Fi-Prototype?node-id=0-1&t=dFCkkK3L6wrMk2EL-1 
-
-## Figma Interactivity Prototype
+#### Figma Interactivity Prototype: 
 https://www.figma.com/proto/pbIf1WHBnSy2LS7VEQXfBU/Mid-Fi-Prototype?node-id=2-241&p=f&t=X3NupLg49cVPZTVc-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A241
+
+## Hi-Fi Prototype
+#### React App:
+https://carlycollins.github.io/Bite-Buddies/#/
