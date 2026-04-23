@@ -85,16 +85,14 @@ export function GroceryList() {
             <li>• Shop sales and stock up on staples</li>
           </ul>
         </div>
-
-        {/* Action Buttons */}
-        <div className="grid grid-cols-2 gap-3">
-          <button className="bg-white border-2 border-green-500 text-green-600 py-3 rounded-xl font-semibold hover:bg-green-50 transition-colors">
-            Share List
-          </button>
-          <button className="bg-green-500 text-white py-3 rounded-xl font-semibold hover:bg-green-600 transition-colors">
-            Print List
-          </button>
+        
+        <div className="bg-green-50 border border-green-200 rounded-xl p-4">
+          <h3 className="font-semibold text-green-800 mb-2">List Has been Saved To "My Groceries"</h3>
+          <ul className="space-y-1 text-sm text-blue-700">
+            <li>Navigate to the "My Grocieries" page to view list or generate more!</li>
+          </ul>
         </div>
+        
       </div>
     </Layout>
   );
